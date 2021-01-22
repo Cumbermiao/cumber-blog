@@ -105,3 +105,4 @@ theme: landscape
 deploy:
   type: 'heroku'
   repo: 'https://git.heroku.com/cumber-blog.git'
+  message: ''
