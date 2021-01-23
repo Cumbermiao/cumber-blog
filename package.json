@@ -1,6 +1,6 @@
 {
-  "name": "cumber-blog",
-  "version": "0.0.0",
+  "name": "hexo-site",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "hexo server -p $PORT",
@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "hexo-renderer-jade": "0.3.0"
+  },
+  "engines": {
+    "node": "12.16.3"
   }
 }
