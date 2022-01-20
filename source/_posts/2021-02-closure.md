@@ -1,12 +1,11 @@
 ---
 title: 闭包
+categories: 'Computer,JS'
+tags: '闭包,closure'
 date: 2021-02-01 15:19:19
 updated:
-categories: 'Computer,JS'
-tags:
-  - 闭包
-  - closure
 ---
+
 
 # 闭包
 

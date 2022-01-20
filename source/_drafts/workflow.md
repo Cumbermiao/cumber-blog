@@ -3,7 +3,10 @@ title: 基于 gitlab flow 的工作流
 date: 2022-01-06 11:49:46
 updated: 2022-01-06 11:49:46
 categories: workflow
-tags:  ci cd workflow
+tags:  
+  - ci
+  - cd
+  - workflow
 ---
 
 ## 前言

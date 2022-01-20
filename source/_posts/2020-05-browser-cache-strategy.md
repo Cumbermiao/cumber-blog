@@ -1,15 +1,11 @@
 ---
 title: 浏览器缓存策略
+categories: 'Computers, Communication'
+tags: '浏览器,browser,缓存,http cache,cache'
 date: 2020-05-01 16:31:51
 updated: 2021-02-01 16:31:51
-categories: "Computers, Communication"
-tags: 
-- 浏览器
-- browser
-- 缓存
-- http cache
-- cache
 ---
+
 
 # 浏览器缓存策略
 

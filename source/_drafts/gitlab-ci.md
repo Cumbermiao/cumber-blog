@@ -3,7 +3,8 @@ title: gitlab-ci 实践
 date: 2021-03-10 11:49:46
 updated: 2021-03-10 11:49:46
 categories: gitlab
-tags:   ci
+tags:  
+  - ci
 ---
 
 ## 基于 docker 搭建 CI 平台
