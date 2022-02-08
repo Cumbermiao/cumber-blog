@@ -1,3 +1,8 @@
+## 使用
+
+- 本地服务执行 `npm run start`
+- 发布：将 commit 推送至远程即可
+
 ## hexo 常用命令
 
 - 创建项目 `hexo init [folder]`
