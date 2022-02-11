@@ -45,3 +45,8 @@ $build_cmd
 curl --header 'Content-Type: application/json' --header "PRIVATE-TOKEN: KwqyDk3dzx7EnET-SPXh" --data '{ "name": "mf release", "tag_name": "'$tag'", "description": "released by jenkins" }' --request POST http://10.3.7.241/api/v4/projects/57/releases 
 curl --header "PRIVATE-TOKEN: KwqyDk3dzx7EnET-SPXh" --data name="archive.zip" --data url="http://10.3.7.241:8984/job/fe-release-mf/"$BUILD_NUMBER"/artifact/*zip*/archive.zip" --request POST http://10.3.7.241/api/v4/projects/57/releases/v3.1.0/assets/links
 ```
+
+## 待解决问题
+
+1. 在 jenkins 执行 `lerna version` 命令时， lerna 会执行 `git remote update` 需要输入用户名及密码，导致 jenkins 任务报错。
+2. `lerna version` 生成的 CHANGELOG 如何展示 commit body 中的内容？是否可以展示关联的 issue 及 MR？
