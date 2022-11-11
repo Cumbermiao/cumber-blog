@@ -7,7 +7,9 @@
 
 - 创建项目 `hexo init [folder]`
 
-- 创建新文章 `hexo new [layout] <title> -p about/me -r` ； -p 可以自定义路径； -r 替换同名文章；
+- 创建新文章 `hexo new [layout] <title> -p about/me -r` ； -p 可以自定义路径； -r 替换同名文章；layout 可选，默认 draft；
+
+- 正式发布草稿文章 `hexo publish <文件名>`
 
 - 生成静态文件 `hexo g -d -f`； -d 生成之后立即部署； -f 重新生成所有文件；
 
