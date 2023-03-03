@@ -6,6 +6,7 @@ categories:
 tags:
 ---
 
+![vim键盘图.png](https://s2.loli.net/2023/03/02/xq9LfeGrpWXSadt.png)
 ## vim 用法
 
 - `vim +n 文件名` 打开文件，光标会跳转到第 n 行；
